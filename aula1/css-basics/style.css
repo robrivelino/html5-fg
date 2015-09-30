@@ -1,0 +1,30 @@
+
+.btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+
+  display: inline-block;
+  background: none;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: background .2s;
+}
+
+.btn.primary {
+  background: green;
+  border-color: green;
+}
+
+.btn.danger {
+  background: red;
+  border-color: red;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
