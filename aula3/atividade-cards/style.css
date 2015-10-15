@@ -1,0 +1,105 @@
+body {
+  background: url(http://penseempresas.com.br/img/blur-background08.jpg);
+  background-size: cover;
+}
+
+/*.card {
+    width: 500px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    background: white;
+    padding: 25px 20px 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    // jeito old de centralizar, mas e necessario saber o tamano do elemento
+    margin-left: -270px;
+    margin-top: -59px;
+}*/
+
+.card h2 {
+  color: #e91d62;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.card menu {
+  position: absolute;
+  bottom: 0; left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #eee;
+}
+
+.card menu .btn {
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  background: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 0 15px;
+  height: 100%;
+  display: inline-block;
+  cursor: pointer;
+  /* estas props resolvem um problema de posicionamento do link,
+  quando este vem apos um button */
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.card menu .btn:hover {
+  color: #e91d62;
+}
+
+.card.img-top img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card.img-top {
+  padding-top: 220px;
+}
+
+.card.img-left img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 85px;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  z-index: 10;
+}
+
+.card.img-left {
+  padding-left: 95px;
+}
+
+.card.img-left menu {
+  padding-left: 85px;
+  box-sizing: border-box;
+}
+
+
+
+.card {
+  width: 500px;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  background: white;
+  padding: 25px 20px 75px;
+  font-family: sans-serif;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* css3 para centralizar */
+  transform: translate(-50%, -50%);
+}
+

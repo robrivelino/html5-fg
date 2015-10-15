@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+
+    ao criar um elemento, nao atribua o estilo a tag, pois como no exemplo abaixo
+    os botoes nem sempre vao ser botoes, podem ser links, divs, etc.
+    somente no visual que eles tem a mesma identidade, entao por isso
+    atribuimos o estilo do botao a uma classe, no exemplo abaixo usamos a classe .btn
+
+   -->
+
+  <div>
+    <button class="btn primary">Normal Button</button>
+    <a href="" class="btn warning">Normal Button</a>
+    <div class="btn secondary">Normal Button</div>
+    <button class="btn danger">Normal Button</button>
+  </div>
+
+  <div>
+    <button class="btn primary hover">Normal Button</button>
+    <a href="" class="btn warning hover">Normal Button</a>
+    <div class="btn secondary hover">Normal Button</div>
+    <button class="btn danger hover">Normal Button</button>
+  </div>
+
+  <div>
+    <button class="btn primary" disabled>Normal Button</button>
+    <a href="" class="btn warning" disabled>Normal Button</a>
+    <div class="btn secondary" disabled>Normal Button</div>
+    <button class="btn danger" disabled>Normal Button</button>
+  </div>
+
+
+
+</body>
+</html>

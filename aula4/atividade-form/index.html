@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <style>
+  input:invalid {
+    background: red;
+  }
+  </style>
+</head>
+<body>
+  <form action="" id="myForm">
+    <div contenteditable>lorem ipsum dolor</div>
+    <div>
+      <label>
+      <input type="text" placeholder="nome" name="firstname" autocapitalize="off" value="Darlan">
+      </label>
+    </div>
+
+    <div>
+      <label>
+      <input type="text" placeholder="sobrenome" name="lastname">
+      </label>
+    </div>
+
+    <div>
+      <label>
+      <input type="email" placeholder="email" name="email">
+      </label>
+    </div>
+
+    <div>
+      <label>
+      <input type="text" placeholder="cpf" name="cpf" autocomplete="off">
+      </label>
+    </div>
+
+    <div>
+      <label>
+      <input type="date" placeholder="data" name="date" min="2015-10-04" max="2015-10-08"> <!-- required -->
+      </label>
+    </div>
+
+    <select name="language" id="">
+      <option>Selecione</option>
+      <option value="pt-BR">Portugues</option>
+      <option value="en-US" selected>Inglês</option>
+    </select>
+
+    <div>
+      <label>
+      <input type="url" placeholder="url" name="url">
+      </label>
+    </div>
+
+    <textarea name="description">Descrição</textarea>
+
+    <div>
+      Sexo
+      <label>
+        <input type="radio" value="male" name="gender"> Masculino
+      </label>
+      <label>
+        <input type="radio" value="female" name="gender"> Feminino
+      </label>
+    </div>
+
+    <div>
+      Cursos
+      <label>
+        <input type="checkbox" value="html5" name="courses"> HTML5
+      </label>
+      <label>
+        <input type="checkbox" value="css3" name="courses"> CSS3
+      </label>
+      <label>
+        <input type="checkbox" value="js" name="courses"> Javascript
+      </label>
+    </div>
+
+    <div>
+      Foto
+      <input type="file" multiple accept="image/jpeg,image/gif,image/png">
+    </div>
+
+    <div>
+      Telefone
+      <input type="tel" placeholder="phone" name="phone">
+    </div>
+
+    <div>
+      Nº
+      <input type="number" placeholder="number" name="number" min="-10" max="5">
+    </div>
+
+    <div>
+      Color
+      <input type="color">
+    </div>
+
+    <div>
+      <input type="search">
+    </div>
+
+    <div>
+      <input type="range" min="0" max="100" value="0" step="50" name="rangevalue">
+    </div>
+
+    <button>Enviar</button>
+    <button type="reset">Resetar</button>
+  </form>
+</body>
+</html>

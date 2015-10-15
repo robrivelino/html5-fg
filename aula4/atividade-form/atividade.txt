@@ -1,0 +1,26 @@
+atividade de formulario
+criar os seguintes itens num formulario
+
+Valor        (tipo de componentse)
+
+- nome (input text)
+- email (input email)
+- cpf (input text)
+- data (input date)
+- idioma (select)
+- url (input url)
+- descripcao (textarea)
+- sexo (input radio)
+- cursos (input checkbox)
+- foto (input file, com mimetype de jpg, e png)
+- telefone (input tel)
+- quantidade (input number)
+- cor (input color)
+- pesquisa (input search)
+- qtd de novo (input range)
+
+darlanmendonca [10:40 PM]
+- button reset
+
+darlanmendonca [10:40 PM]
+- button submit

@@ -1,0 +1,14 @@
+.btn {
+  border-radius: 10px;
+  background: gray;
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.btn:hover {
+  background: white;
+  color: gray;
+}

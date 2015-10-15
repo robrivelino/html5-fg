@@ -1,0 +1,50 @@
+body {
+  background: #F2F2F2;
+  /*
+    cores podem ser definidas em 3 formatos
+
+    hexadecimal (funciona em tudo), exemplo #ff0000 cria uma cor vermelha
+    rgb (eh novidade, soh no css3), exemplo rgb(255, 0, 0)
+    hsl (tambem css3), exemplo hsl(100%, 0, 0)
+
+   */
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+  background: none;
+  border: 0;
+  padding: 0 10px;
+  line-height: 2.5em;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover, .btn.hover {
+  opacity: .9;
+}
+
+.btn[disabled] {
+  opacity: .2;
+  cursor: no-drop;
+}
+
+.btn.primary {
+  background-color: #00BE9C;
+}
+
+.btn.warning {
+  background-color: #EAC900;
+}
+
+.btn.secondary {
+  background-color: #5C6A9B;
+}
+
+.btn.danger {
+  background-color: #E82933;
+}
