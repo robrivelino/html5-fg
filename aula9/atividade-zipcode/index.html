@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    div {
+      margin-bottom: 10px;
+    }
+    .address-filled.hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div>
+      <input type="text" name="zipcode" placeholder="Cep" autocomplete="off">
+      <button id="search-zipcode">Search</button>
+    </div>
+    <div class="address-filled hidden">
+      <div><input type="text" name="address" placeholder="Rua"></div>
+      <div><input type="text" name="neighborhood" placeholder="Bairro"></div>
+      <div><input type="text" name="city" placeholder="Cidade"></div>
+      <div><input type="text" name="state" placeholder="Estado"></div>
+    </div>
+  </form>
+
+  <script src="jquery.js"></script>
+  <script src="jquery.mask.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
