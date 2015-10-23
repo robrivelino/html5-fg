@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+  body {
+    background: red;
+  }
+}
+
+@media (max-width: 600px) {
+  div {display: inline-block}
+}
+
+body {
+  transition: background .8s ease;
+}
+
+
+div {
+  background: gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}

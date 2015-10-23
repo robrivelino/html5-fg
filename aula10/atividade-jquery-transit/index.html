@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .square {
+      width: 100px;
+      height: 100px;
+      background: red;
+      display: inline-block;
+    }
+    .center {
+      position: absolute;
+      top: 50%; left: 50%;
+      margin-top: -50px;
+      margin-left: -100px;
+    }
+    .ease {background: blue;}
+  </style>
+</head>
+<body>
+  <div class="center">
+    <div class="square linear"></div>
+    <div class="square ease"></div>
+  </div>
+
+
+  <script src="jquery.js"></script>
+  <script src="jquery.transit.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
