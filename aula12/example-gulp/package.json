@@ -1,0 +1,15 @@
+{
+  "name": "example-gulp",
+  "version": "1.0.0",
+  "description": "exemplo de projeto usando o gulp para automatizar tarefas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0"
+  }
+}
