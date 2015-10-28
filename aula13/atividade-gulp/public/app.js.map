@@ -1,0 +1,1 @@
+{"version":3,"sources":["test1.js","test2.js","inset/test3.js"],"names":[],"mappings":"AAAA;AACA;ACDA;AACA;ACDA;AACA","file":"app.js","sourcesContent":["console.log('test1');\n","console.log('test2');\n","console.log('test3');\n"],"sourceRoot":"/source/"}
